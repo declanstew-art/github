@@ -1,0 +1,132 @@
+* {
+  font-family: Monaco, andale mono, monospace;
+  font-size:9.5px;
+  font-weight:normal;
+  letter-spacing:1px;
+  word-spacing:-2px;
+  line-height:17.5px;
+  text-align:justify;
+}
+
+#Contact{
+	position:absolute;
+	left:600px;
+	top:86px;
+}
+
+h1 {
+	font-weight:bold;
+	font-size:12px;
+	line-height:5px;
+}
+  
+body {
+	background-color:#e5e4e4;
+	margin-right:42px;
+	margin-left:42px;
+	margin-top:42px;
+}
+
+.Project {
+  line-height:1.7;
+  }
+
+span.Description { 
+  color:#6f6f6f;
+  font-weight:lighter;
+}
+
+span.Contact {
+	color:#6f6f6f;
+}
+
+p {
+  color:#6f6f6f;
+  min-width:350px;
+  max-width:500px;
+  padding-top:5px;
+}
+
+a{
+  text-decoration:none;
+   color:#000;
+}
+
+a:hover {
+	background:rgba(0,0,0,1.00);
+	color:rgba(255,255,255,1.00);
+}
+
+img{
+	max-width:75%;
+	height:auto;
+	display:block;
+}
+
+#Half{
+	max-width:37.5%;	
+}
+
+@media (max-width:480px){
+	
+*{
+	font-size:6.5px;
+	line-height:11px;
+	letter-spacing:0.8px;
+	word-spacing:-2.5px;
+}
+
+img{
+		max-width:100%;
+		width:100%;
+}
+
+p{
+	  min-width:100%;
+	  text-align:justify;	
+}
+
+.Description{
+	font-weight:normal;
+}
+
+h1{
+	font-size:8px;
+	line-height:3px;	
+}
+
+#Contact{
+	position:absolute;
+	left:30px;
+	top:230px;
+}
+
+#Half{
+	max-width:50%;
+	
+}
+
+body{
+	margin-right:30px;
+	margin-left:30px;
+	margin-top:30px;
+}
+
+@media (min-width:480px) and (max-width:1024px){
+	img{
+		max-width:100%;
+		width:100%;
+	}
+	
+#Contact{
+	position:absolute;
+	left:42px;
+	top:280px;
+}
+
+#Half{
+	min-width:50%;
+	
+}
+
+}
