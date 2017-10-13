@@ -1,6 +1,6 @@
 * {
-  font-family: Monaco, andale mono, monospace;
-  font-size:11px;
+  font-family: helvetica, arial, sanserif;
+  font-size:9.5px;
   font-weight:normal;
   letter-spacing:1px;
   word-spacing:-2px;
@@ -16,7 +16,7 @@
 
 h1 {
 	font-weight:bold;
-	font-size:13.5px;
+	font-size:12px;
 	line-height:5px;
 }
   
