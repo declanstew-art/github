@@ -57,6 +57,10 @@ a:hover {
 	color:rgba(255,255,255,1.00);
 }
 
+a:visited {
+	color:rgba(255,255,255,1.00);
+}
+
 img{
 	max-width:75%;
 	height:auto;
