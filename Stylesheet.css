@@ -2,7 +2,7 @@
   font-family: helvetica, arial, sanserif;
   font-size:11px;
   font-weight:normal;
-  letter-spacing:1px;
+  letter-spacing:0px;
   word-spacing:0;
   line-height:17.5px;
   text-align:justify;
@@ -74,10 +74,10 @@ img{
 @media (max-width:480px){
 	
 *{
-	font-size:6.5px;
+	font-size:8px;
 	line-height:11px;
-	letter-spacing:0.8px;
-	word-spacing:-2.5px;
+	letter-spacing:0px;
+	word-spacing:0;
 }
 
 img{
@@ -95,7 +95,7 @@ p{
 }
 
 h1{
-	font-size:8px;
+	font-size:10px;
 	line-height:3px;	
 }
 
