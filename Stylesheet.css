@@ -1,10 +1,10 @@
 * {
   font-family: helvetica, arial, sanserif;
-  font-size:11px;
+  font-size:12px;
   font-weight:normal;
   letter-spacing:0px;
   word-spacing:0;
-  line-height:17.5px;
+  line-height:18.5px;
   text-align:justify;
 }
 
@@ -74,8 +74,8 @@ img{
 @media (max-width:480px){
 	
 *{
-	font-size:8px;
-	line-height:11px;
+	font-size:9px;
+	line-height:12px;
 	letter-spacing:0px;
 	word-spacing:0;
 }
