@@ -1,0 +1,161 @@
+@charset "UTF-8";
+/* CSS Document */
+html{
+	cursor: none;
+}
+body{
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	width: 1200px;
+	min-height: 100px;
+	align-items: center;
+	margin: auto;
+}
+main{
+	position: relative;
+	top: 250px;
+	z-index: 1;
+}
+h2 {
+	text-align: center;
+	font-size: 45px;
+	max-width: 950px;
+	margin: auto;
+	line-height: 60px;
+	font-weight: 400;
+	color: white;
+}
+
+  /* The typing effect */
+  @keyframes typing {
+	from { width: 0 }
+	to { width: 960px }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+	from, to { border-color: transparent }
+	50% { border-color: black}
+  }
+  
+h3 {
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	border-right: 3px solid black; /* The typwriter cursor */
+	white-space: nowrap; /* Keeps the content on a single line */
+	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+	animation: 
+	  typing 9s steps(110, end),
+	  blink-caret .5s step-end infinite;
+	text-align: center;
+	font-size: 25px;
+	font-family: 'EB Garamond', serif;
+	color: white;
+	letter-spacing: 1px;
+	margin-top: 25px;
+	width: 960px;
+}
+}
+.hp_image {
+	max-width: 100%;
+	height: auto;
+  }
+.wordmark {
+	font-size: 25px;
+}
+h5{
+	padding-left: 60px;
+	position: relative;
+	color: white;
+	top: 750px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.About{
+	padding-top: 150px;
+	padding-left: 60px;
+	max-width: 600px;
+	font-size: 18px;
+}
+body {
+	animation: colorchange 45s linear 1s infinite;
+	-webkit-animation: colorchange 45s linear 0s infinite alternate; 
+}
+  
+@keyframes colorchange
+{
+  0%   {background:thistle; color: lavenderblush;}
+  33%  {background: rgb(164, 224,164); color: magenta;}
+  66%  {background: rgb(93, 93, 187); color: yellow;}
+  100% {background:lavenderblush; color:thistle;}
+}
+.cursor{
+	width: 2rem;
+	height: 2rem;
+	border: 2px solid black;
+	border-radius: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	pointer-events: none;
+	z-index: 1;
+	transition: all 0.3s ease;
+	transition-property: background, transform;
+	transform-origin: 100% 100%;
+	backdrop-filter: blur(3px);
+}
+.link-grow{
+	transform: scale(2.5);
+	background: black;
+}
+.nav-links{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	padding: 5px;
+	z-index:2;
+}
+.nav-links, h1{
+	flex: 1;
+	color: black;
+}
+.hovered-link{
+	color: white;
+}
+.nav-links li{
+	padding-left: 15px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+h1{
+	font-weight: 400;
+	width: 600px;
+}
+main .grid-box img{
+    width: 100%;
+    position: relative;
+}
+
+img:hover{
+    position: relative;
+}
+h1{
+	margin right: 5px;
+}
+.links:hover{
+    color: white;
+    list-style: none;
+    cursor: none;
+  }
+  a{
+    cursor: none;
+  }
+  .links{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+  }
