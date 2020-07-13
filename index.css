@@ -202,3 +202,6 @@ body .box {
 @keyframes moveY {
   from { top: 0; } to { top: 95%; }
 }
+header{
+	width:1265px;
+}
