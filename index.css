@@ -202,4 +202,16 @@ body .box {
 @keyframes moveY {
   from { top: 0; } to { top: 95%; }
 }
-
+@media only screen and (max-width: 480px){
+	nav{ display: none;
+	}
+	h3{
+		display: none;
+	}
+	h5{
+		display: none;
+	}
+	h2{
+		display: none;
+	}
+}
